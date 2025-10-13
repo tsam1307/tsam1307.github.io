@@ -1,0 +1,1 @@
+import"../chunks/Bzak7iHL.js";import"../chunks/DzS-jGet.js";import{j as r,k as a,l as m}from"../chunks/D22dt_iT.js";var p=r("<h1>Work in Progress</h1> <p>Wait till the next commit!</p>",1);function s(t){var o=p();m(2),a(t,o)}export{s as component};
