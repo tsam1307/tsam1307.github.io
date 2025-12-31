@@ -1,24 +1,4 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="./favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		
-		<link href="./app/immutable/assets/0.SGhETFZz.css" rel="stylesheet">
-		<link rel="modulepreload" href="./app/immutable/entry/start.Bo6wK1vO.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/B-dapMBo.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DAVMJPUY.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DEQpk4M8.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/BMaBk1fW.js">
-		<link rel="modulepreload" href="./app/immutable/entry/app.BNBS6aTR.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/Bzak7iHL.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/0.DgMnbhKu.js">
-		<link rel="modulepreload" href="./app/immutable/nodes/2.4zWf2Eh4.js">
-		<link rel="modulepreload" href="./app/immutable/chunks/DtsA1MlJ.js"><!--[--><!--]--><title>Home</title>
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents"><!--[--><!--[--><!----><nav class="sticky top-0 z-50 flex justify-between bg-white px-4 py-4 shadow-md lg:border-b lg:px-6 lg:shadow-none"><a href="/"><img src="/logo.svg" alt="TS"/></a> <ul class="flex justify-end space-x-4 lg:space-x-6"><li><a href="/projects">Projects</a></li> <li><a href="/courses">Courses</a></li> <li><a href="/about">About</a></li></ul></nav> <!----><div class="flex max-lg:flex-wrap"><main class="m-2 w-full rounded-xl px-4 py-6 lg:m-8 lg:border lg:px-8 lg:py-10"><p>Ph.D. Thesis ⋅ Jul 2023</p> <h2>Synthesis of Design and Operating Parameters of Photovoltaic Thermal Hybrid Collector Through
+import"../chunks/Bzak7iHL.js";import"../chunks/DtsA1MlJ.js";import{n as o,o as t,p as i,$ as r}from"../chunks/DEQpk4M8.js";var n=o(`<div class="flex max-lg:flex-wrap"><main class="m-2 w-full rounded-xl px-4 py-6 lg:m-8 lg:border lg:px-8 lg:py-10"><p>Ph.D. Thesis &sdot; Jul 2023</p> <h2>Synthesis of Design and Operating Parameters of Photovoltaic Thermal Hybrid Collector Through
 			Genetic Algorithm for Local Climate</h2> <p class="mt-6 font-bold uppercase">Abstract</p> <p class="mt-4">The concept of photovoltaic thermal (PVT) hybrid collectors has been presented and explored by
 			many researchers in the past century and the technology has already been commercialized in
 			European countries. The design of PVT collector for efficient operation in the tropical and
@@ -46,29 +26,4 @@
 			PVT air heater has been explained for the month of June at Pantnagar.</p> <p><b>URI</b> <a href="https://krishikosh.egranth.ac.in/handle/1/5810216362" class="block break-all text-blue-600 underline">https://krishikosh.egranth.ac.in/handle/1/5810216362</a></p></main> <aside class="mx-2 w-full rounded-xl px-4 py-4 md:py-6 lg:m-8 lg:ml-0 lg:max-w-sm lg:border lg:px-8 lg:py-10"><h2>Publications</h2> <ul class="space-y-6 py-6"><li><b>Flow Rate for Unbiased Operation of Photovoltaic Thermal Hybrid Air Heater in Local
 					Climate</b><br/>2022 IEEE International Power and Renewable Energy Conference (IPRECON), Kollam,
 				India<br/> <b>DOI</b> <a href="https://doi.org/10.1109/IPRECON55716.2022.10059524" class="break-all text-blue-600 underline">10.1109/IPRECON55716.2022.10059524</a></li> <li><b>Assessment of Electrical and Thermal Performance of Photovoltaic Thermal Air Collector in
-					the Climate of Pantnagar, Uttarakhand</b><br/>2021 IOP Conf. Ser.: Mater. Sci. Eng. 1168 012016 <br/> <b>DOI</b> <a href="https://doi.org/10.1088/1757-899X/1168/1/012016" class="break-all text-blue-600 underline">10.1088/1757-899X/1168/1/012016</a></li></ul></aside></div><!----><!----> <footer class="my-4 py-3"><p class="text-muted text-center text-gray-500"><small>© 2025 Tarun Samant</small></p></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
-			
-			<script>
-				{
-					__sveltekit_1gkj38y = {
-						base: new URL(".", location).pathname.slice(0, -1)
-					};
-
-					const element = document.currentScript.parentElement;
-
-					Promise.all([
-						import("./app/immutable/entry/start.Bo6wK1vO.js"),
-						import("./app/immutable/entry/app.BNBS6aTR.js")
-					]).then(([kit, app]) => {
-						kit.start(app, element, {
-							node_ids: [0, 2],
-							data: [{type:"data",data:null,uses:{}},null],
-							form: null,
-							error: null
-						});
-					});
-				}
-			</script>
-		</div>
-	</body>
-</html>
+					the Climate of Pantnagar, Uttarakhand</b><br/>2021 IOP Conf. Ser.: Mater. Sci. Eng. 1168 012016 <br/> <b>DOI</b> <a href="https://doi.org/10.1088/1757-899X/1168/1/012016" class="break-all text-blue-600 underline">10.1088/1757-899X/1168/1/012016</a></li></ul></aside></div>`);function d(e){var a=n();t(l=>{r.title="Home"}),i(e,a)}export{d as component};
