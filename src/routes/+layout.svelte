@@ -17,7 +17,7 @@
 
 {@render children()}
 
-<footer class="my-4 py-3">
+<footer class="py-3">
 	<p class="text-muted text-center text-gray-500">
 		<small>
 			&copy; {currentYear} Tarun Samant

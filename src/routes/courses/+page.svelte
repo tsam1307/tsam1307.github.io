@@ -12,25 +12,67 @@
 				<img class="rounded-base" src="Carnot_heat_engine_2.svg" alt="Carnot heat engine" />
 			</div>
 			<div class="flex h-1/3 items-center justify-center rounded-b-xl border border-t-0 p-6">
-				<h5 class="text-heading m-6 text-2xl tracking-tight">Thermodynamics</h5>
+				<h5 class="text-heading my-6 text-xl tracking-tight lg:text-2xl">Thermodynamics</h5>
+			</div>
+		</a>
+	</section>
+	<section class="w-full rounded-xl text-center">
+		<a href="/courses/machine-drawing" aria-hidden="true">
+			<div class="flex h-2/3 flex-row items-center justify-center rounded-t-xl border">
+				<img
+					src="DIN_69893_hsk_63a_drawing.png"
+					alt="Machine tool"
+					class="rounded-base rounded-t-xl"
+				/>
+			</div>
+			<div class="flex h-1/3 items-center justify-center rounded-b-xl border border-t-0 p-6">
+				<h5 class="text-heading my-6 text-xl tracking-tight lg:text-2xl">Machine Drawing</h5>
+			</div>
+		</a>
+	</section>
+	<section class="w-full rounded-xl text-center">
+		<a href="/courses/operations-research" aria-hidden="true">
+			<div class="flex h-2/3 flex-row items-center justify-center rounded-t-xl border">
+				<img src="mip.svg" alt="Mixed Integer" class="rounded-base rounded-t-xl" />
+			</div>
+			<div class="flex h-1/3 items-center justify-center rounded-b-xl border border-t-0 p-6">
+				<h5 class="text-heading my-6 text-xl tracking-tight lg:text-2xl">Operations Research</h5>
 			</div>
 		</a>
 	</section>
 	<section class="w-full rounded-xl border px-4 py-6 text-center">
-		Machine Drawing <div class="text-muted pt-12 text-center text-gray-500">
+		Fluid Machinery <div class="text-muted pt-12 text-center text-gray-500">
 			Work in Progress<br />Wait till the next commit!
 		</div>
 	</section>
 	<section class="w-full rounded-xl border px-4 py-6 text-center">
-		Operations Research <div class="text-muted pt-12 text-center text-gray-500">
+		Introduction to Automobiles <div class="text-muted pt-12 text-center text-gray-500">
+			Work in Progress<br />Wait till the next commit!
+		</div>
+	</section>
+	<section class="w-full rounded-xl border px-4 py-6 text-center">
+		Measurement Techniques <div class="text-muted pt-12 text-center text-gray-500">
 			Work in Progress<br />Wait till the next commit!
 		</div>
 	</section>
 </div>
-<div class="text-muted text-center text-gray-500">
-	The copyright holder of the Carnot heat engine image has released the work in <a
+<div class="text-muted px-2 text-center text-gray-500">
+	The copyright holders of the <a
 		href="https://commons.wikimedia.org/wiki/File:Carnot_heat_engine_2.svg"
 		target="_blank"
-		class="text-blue-300 underline">public domain</a
+		class="text-blue-400">Carnot heat engine</a
+	>
+	and
+	<a
+		href="https://commons.wikimedia.org/wiki/File:DIN_69893_hsk_63a_drawing.png"
+		target="_blank"
+		class="text-blue-400">machine tool drawing</a
+	> have released their work in public domain.
+</div>
+<div class="text-muted px-2 text-center text-gray-500 max-md:pt-2">
+	The objective function subject to constraints image is adapted from the glossary of <a
+		href="https://www.nvidia.com/en-in/glossary/mixed-integer-programming/"
+		target="_blank"
+		class="text-blue-400">NVIDIA Corporation</a
 	>.
 </div>

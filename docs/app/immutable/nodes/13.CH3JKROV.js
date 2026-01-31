@@ -1,0 +1,1 @@
+import"../chunks/Bzak7iHL.js";import"../chunks/DtsA1MlJ.js";import{n as a,o,p as s,$ as r}from"../chunks/DEQpk4M8.js";var m=a('<div class="mx-auto mt-6 max-w-md px-8 py-4"><h1 class="text-center">Chess</h1> <div class="text-muted pt-4 text-center text-gray-500">Work in Progress</div></div>');function c(t){var e=m();o(p=>{r.title="Chess"}),s(t,e)}export{c as component};

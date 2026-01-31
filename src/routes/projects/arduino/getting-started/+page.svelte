@@ -1,0 +1,157 @@
+<svelte:head>
+	<title>Getting Started</title>
+</svelte:head>
+<div class="mx-auto mt-6 max-w-md px-6 py-4">
+	<h1 class="text-center">Getting Started</h1>
+	<p class="mt-6">
+		An <a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/board-anatomy/"
+			class="text-blue-600"
+			target="_blank">anatomy</a
+		>
+		of Arduino UNO R3 board and in-depth
+		<a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/intro-to-board/"
+			class="text-blue-600"
+			target="_blank">overview</a
+		>
+		of its components are available at Arduino Docs. This board contains a replaceable
+		<b>ATmega328P</b> microcontroller. We also need
+		<a href="https://www.arduino.cc/en/software/" class="text-blue-600" target="_blank"
+			>Arduino IDE</a
+		>
+		to develop and upload code files (called <i>sketches</i> with <code>.ino</code> file extension)
+		from our computer to the board. A step-by-step guide to setup the Arduino IDE for UNO R3 board
+		is available
+		<a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/getting-started/"
+			class="text-blue-600"
+			target="_blank">here</a
+		>. One may need to install a compatible third-party device driver (<a
+			href="https://www.wch-ic.com/downloads/CH341SER.EXE.html?type=en"
+			class="text-blue-600"
+			target="_blank">CH341SER</a
+		>
+		in my case) if the IDE fails to upload sketch to the board. After proper selection of the board and
+		COM port in <i>Tools</i> menu, test everything is working seamlessly by uploading the sketch
+		from
+		<i>File > Examples > 01.Basics > Blink</i> menu in the Legacy IDE (1.8.10). It blinks the
+		on-board LED using the
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/time/delay/"
+			class="text-blue-600"
+			target="_blank"><code>delay()</code></a
+		>
+		function. The on-board LED is also attached to digital pin 13, which may be used to
+		<a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/Blink/"
+			class="text-blue-600"
+			target="_blank">blink</a
+		>
+		an external LED. Thereafter, we learn how to
+		<a
+			href="https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay/"
+			class="text-blue-600"
+			target="_blank">blink without delay</a
+		>
+		using the
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/time/millis/"
+			class="text-blue-600"
+			target="_blank"><code>millis()</code></a
+		>
+		function. Next we play with other built-in <i>Digital</i> and <i>Analog</i> examples that can be
+		followed with components and sensors available in our electronics kit. Later, we will make a calculator
+		using the 16x2 LCD display and 4x4 matrix keypad delivered with the UNO kit.
+	</p>
+	<h3 class="pt-4">Reading Analog Input</h3>
+	<p>
+		Let's follow the
+		<a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/AnalogInput/"
+			class="text-blue-600"
+			target="_blank">Analog Input</a
+		>
+		tutorial. The electronic components needed to make the circuit are:
+	</p>
+	<ul class="list-outside list-disc pl-8">
+		<li>potentiometer</li>
+		<li>photoresistor and 10K ohm resistor</li>
+		<li>220 ohm resistor and red LED</li>
+	</ul>
+	<p>
+		The voltage to the analog input pin A0 is varied either by turning the knob of the potentiometer
+		(center pin) or the resistance divider circuit created by photoresistor and 10K ohm resistor.
+		The outer pins are connected to the 5V and ground (GND) pins on the board.
+	</p>
+	<blockquote
+		class="my-4 border-l-4 border-gray-300 bg-gray-50 p-4"
+		cite="https://docs.arduino.cc/tutorials/uno-rev3/AnalogInput/"
+	>
+		&ldquo;The photoresistor value ranges from 1M ohm in darkness to 10K ohm in daylight (10 lumen)
+		and less than 1K ohm in bright light or sunlight (>100 lumen).&rdquo; <i class="float-right"
+			>&mdash; Arduino Docs</i
+		>
+	</blockquote>
+	<p>
+		The
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/analog-io/analogRead/"
+			class="text-blue-600"
+			target="_blank"><code>analogRead()</code></a
+		>
+		function is then utilized to convert analog input voltage in 0 to 5 volts range to an integer value
+		between 0 and 1023 by 10-bit analog-to-digital convertor (ADC) inside the microcontroller. The value
+		returned by function controls the blink rate of in-built and external LED. The external LED must
+		be connected with 220 ohm resistor in series to draw low current from the digital pin 13.
+	</p>
+	<h3 class="pt-4">Printing to the Serial Monitor</h3>
+	<p>
+		Next we go to the
+		<a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/AnalogReadSerial/"
+			class="text-blue-600"
+			target="_blank">Analog Read Serial</a
+		>
+		tutorial which shows us how to print any sensor value to the Serial Monitor. The Serial Monitor window
+		can be opened from the
+		<i>Tools</i> menu (or the <i>lens icon</i> in the green toolbar) of the Arduino IDE. First, we
+		use the
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/communication/serial/begin/"
+			class="text-blue-600"
+			target="_blank"><code>Serial.begin()</code></a
+		>
+		function to initialize serial communication and set the data rate in bits per second (baud) in the
+		setup routine of the sketch. Then, the
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/communication/serial/println"
+			class="text-blue-600"
+			target="_blank"><code>Serial.println()</code></a
+		>
+		function is used to print out the sensor value to the serial monitor in loop.
+	</p>
+	<h3 class="pt-4">Reading Digital State</h3>
+	<p>
+		The
+		<a
+			href="https://docs.arduino.cc/tutorials/uno-rev3/AnalogInput/"
+			class="text-blue-600"
+			target="_blank">Digital Read Serial</a
+		>
+		tutorial shows how to read the state of a switch using the
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/digital-io/digitalread/"
+			class="text-blue-600"
+			target="_blank"><code>digitalRead()</code></a
+		>
+		function. In the code setup, the
+		<a
+			href="https://docs.arduino.cc/language-reference/en/functions/digital-io/pinMode/"
+			class="text-blue-600"
+			target="_blank"><code>pinMode()</code></a
+		>
+		function sets the digital pin connected to push button as an input for reading the button state as
+		On (1) or Off (0). This state is then printed to the serial monitor.
+	</p>
+</div>

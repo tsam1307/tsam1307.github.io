@@ -18,6 +18,8 @@
 			Dual and Joule cycles.
 		</p>
 		<div class="grid grid-cols-[1fr_5fr] gap-4 pt-4 sm:grid-cols-[1fr_11fr]">
+			<div class="font-bold">Lectures</div>
+			<div class="font-bold">Topics</div>
 			<div>1-7</div>
 			<div>
 				Introduction, Engineering system of units, System and their properties, Concept of energy,
@@ -60,15 +62,11 @@
 		</div>
 		<div class="pt-4">
 			<b>Text Book</b>
-			<ol class="list-decimal pl-12">
-				<li>
-					<a href="https://share.google/qfwS4qPW4G2qxThWZ" target="_blank" class="text-blue-600"
-						>Engineering Thermodynamics by P.&nbsp;K.&nbsp;Nag</a
-					>
-				</li>
+			<ol class="list-decimal pl-8">
+				<li>Engineering Thermodynamics by P.&nbsp;K.&nbsp;Nag</li>
 			</ol>
 			<b>Reference Books</b>
-			<ol class="list-decimal pl-12" start="2">
+			<ol class="list-decimal pl-8">
 				<li>Engineering Thermodynamics by Gupta and Prakash</li>
 				<li>Fundamentals of Thermodynamics by Van Wylen</li>
 			</ol>
@@ -83,7 +81,7 @@
 				<b>Course No.</b> TME-101
 			</li>
 			<li>
-				<b>Credit Hours</b> 4(3-1-2)
+				<b>Credit(Hours)</b> 4(3-1-2)
 			</li>
 			<li>
 				<b>Marks Distribution</b><br />
@@ -100,8 +98,12 @@
 				Teaching Personnel
 			</li>
 			<li>
-				<b>Method</b>
+				<b>Teaching Method</b>
 				Chalk and Talk
+			</li>
+			<li>
+				<b>Class Strength</b>
+				68
 			</li>
 		</ul>
 	</aside>
@@ -116,9 +118,9 @@
 		<p class="mt-0">
 			Pure substance, Property of steam, Triple point, Critical point, Sub-cooled liquid, Saturation
 			states, Superheated states, Phase transformation process of water, Graphical representation of
-			thermodynamic processes on P-T and P-V diagrams, T-S and H-S diagrams, Use of property
-			diagram, Steam-Tables & Mollier charts, Dryness fraction and it's measurement, processes
-			involving steam in closed and open systems, Simple Rankine cycle.
+			thermodynamic processes on P-T & P-V diagrams, T-S and H-S diagrams, Use of property diagram,
+			Steam-Tables & Mollier charts, Dryness fraction and it's measurement, processes involving
+			steam in closed and open systems, Simple Rankine cycle.
 			<span class="float-right pr-6">(6)</span>
 		</p>
 		<p class="mt-4 font-bold">
@@ -127,12 +129,12 @@
 		<p class="mt-0">
 			Steam generators-classifications. Working of fire-tube and water-tube boilers, boiler
 			mountings & accessories, Draught & its calculations, air pre-heater, feed water heater, super
-			heater. Boiler, efficiency, Equivalent evaporation. Boiler trial and heat balance.
+			heater. Boiler efficiency, Equivalent evaporation. Boiler trial and heat balance.
 			<span class="float-right pr-6">(6)</span>
 		</p>
 		<p class="mt-2 font-bold">Condenser</p>
 		<p class="mt-0">
-			Classification of condenser. Air leakage. Condenser performance parameters
+			Classification of condenser, Air leakage, Condenser performance parameters
 			<span class="float-right pr-6">(2)</span>
 		</p>
 		<p class="mt-4 font-bold">
@@ -146,7 +148,7 @@
 		<p class="mt-2 font-bold">Steam & Gas Nozzles</p>
 		<p class="mt-0">
 			Flow through nozzle, Variation of velocity, Area and specific volume, Choked flow, Throat
-			area, Nozzle efficiency, Off design operation of nozzle. Effect of friction on nozzle, Super
+			area, Nozzle efficiency, Off design operation of nozzle, Effect of friction on nozzle, Super
 			saturated flow.
 			<span class="float-right pr-6">(4)</span>
 		</p>
@@ -163,9 +165,9 @@
 		<p class="mt-0">
 			Classification of steam turbine, Impulse and reaction turbines, Staging, Stage and overall
 			efficiency, Reheat factor, Bleeding, Velocity diagram of simple & compound multistage impulse
-			& reaction turbines & related calculations. Work done, efficiencies of reaction,
-			Impulse-reaction Turbines, state point locus, Comparison with steam engines. Losses in steam
-			turbines, Governing of turbines.
+			& reaction turbines & related calculations. Work done, efficiencies of reaction, Impulse
+			reaction Turbines, state point locus, Comparison with steam engines, Losses in steam turbines,
+			Governing of turbines.
 			<span class="float-right pr-6">(6)</span>
 		</p>
 		<p class="mt-4 font-bold">
@@ -186,11 +188,14 @@
 		</p>
 		<div class="pt-4">
 			<b>Books</b>
-			<ol class="list-decimal pl-12">
+			<ol class="list-decimal pl-8">
 				<li>Fundamentals of Thermodynamics, 7ed, w/CD, Sonntag, Wiley India</li>
 				<li>Thermodynamics, P.&nbsp;K.&nbsp;Shah, B.&nbsp;S.&nbsp;Publications</li>
 				<li>Basic and Applied Thermodynamics by P.&nbsp;K.&nbsp;Nag, Tata McGraw Hill Pub.</li>
 				<li>Thermal Engg. by P.&nbsp;L.&nbsp;Ballaney, Khanna Publisher</li>
+				<li>Theory of Steam Turbine by W.&nbsp;J.&nbsp;Kearton</li>
+				<li>Gas Turbine by V.&nbsp;Ganeshan, Tata Mc Graw Hill Publishers.</li>
+				<li>Gas turbine Theory & Practice, by Cohen & Rogers, Addison Weslay Long man</li>
 			</ol>
 		</div>
 	</main>
@@ -203,12 +208,12 @@
 				<b>Course No.</b> TME-404
 			</li>
 			<li>
-				<b>Credit Hours</b> 4(3-1-0)
+				<b>Hours(L-T-P)</b> 4(3-1-0)
 			</li>
 			<li>
 				<b>Marks Distribution</b><br />
-				I Sessional 30%; II Sessional 30%<br />
-				Final 40%
+				I Sessional 15; II Sessional 15<br />
+				Assignment 20; Final 100
 			</li>
 			<li>
 				<b>Institution</b><br />
@@ -220,8 +225,12 @@
 				Guest Faculty
 			</li>
 			<li>
-				<b>Method</b>
+				<b>Teaching Method</b>
 				Whiteboard, Chalk
+			</li>
+			<li>
+				<b>Class Strength</b>
+				58
 			</li>
 		</ul>
 	</aside>

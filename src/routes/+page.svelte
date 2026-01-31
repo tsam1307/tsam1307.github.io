@@ -47,7 +47,7 @@
 			<b>URI</b>
 			<a
 				href="https://krishikosh.egranth.ac.in/handle/1/5810216362"
-				class="block break-all text-blue-600 underline"
+				class=" block break-all text-blue-600 underline"
 				>https://krishikosh.egranth.ac.in/handle/1/5810216362</a
 			>
 		</p>
